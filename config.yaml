@@ -1,4 +1,4 @@
-baseurl: /
+baseurl: https://adams-analysis.netlify.app
 languageCode: en-us
 title: Adam's Analysis
 theme: hugo-lithium
