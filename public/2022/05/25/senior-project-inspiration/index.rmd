@@ -1,0 +1,40 @@
+---
+title: Senior Project Inspiration
+author: Adam Romriell
+date: '2022-05-25'
+slug: senior-project-inspiration
+categories: ["Senior Project"]
+tags: ['Senior Project', 'Projects', 'Python','Learning']
+---
+
+# Introduction
+
+My dad is a wise man. Ever since I switched my degree from accounting to data science in the summer of 2020, he has put the bug in my ear to make some kind of program that can predict how many cinnamon rolls that one of my mom’s bakeries should make. I’ve thought that this is a great idea! However, I have not really known how to execute on this idea until a few months ago. 
+
+When my parents first bought a local bakery back in February 2017, I have had a sort of data-centric view to the business. I didn’t realize it at the time, but I my fascinated with the revenue numbers and how to maximize profit would later be a catalyst to getting into data science. I researched different metrics online that could help diagnose if we were keeping expenses low and revenue high. Only in the last year have I really been able to learn how to gather data, analyze, graph, model, and perform statistical tests to really leverage the data that we already have. 
+
+This is the driving force for my senior project; to help my mom’s bakery leverage the data that is available to it to help predict how many cinnamon rolls, breads, cookies, and other baked goods to make available for purchase on a given day. 
+
+# Social Media
+In mid-April this year, I sat down with my mom and asked here what kinds of data questions she has. She had quite a few! I was a little surprised. 
+
+The first concern that she has is about her social media posting and activity. Early on when my parents bought the bakery, I pushed doing social media marketing and was even a content creator for a couple of months. In the time that I was posting regularly, revenues increased! We confirmed as much with a friend of mine performing some statistical tests on social media engagement and revenue. 
+
+My mom would like to quantify how much revenue and sheer number of transactions that are generated from consistent posting on social media. In her mind, this would help to inform the social media agency about their job performance. It would also show her that it is still worth paying extra money on social media posting if it brings in more revenue to the different locations that she runs. 
+
+My initial hypothesis is that social media posting and engagement on those posts help to boost revenue and number of transactions. I would also like to perform a linear regression on the data to really be able to quantify the impact of social media posting. 
+
+# Holidays
+The other big question that she has is about holidays. Which holidays should be heavily promoted and which days should the bakery stay closed. The bakery's busy season is from mid-September through December. The days leading up to Halloween may be big for business but then the actual day may not be that good. These are some of the big questions that my mom shared with me when we sat down.
+
+We know for a fact that the days leading up to Thanksgiving and Christmas there are tons of orders that are placed. What about Black Friday? Historically, the bakery has been pretty slow, despite all of the shoppers out. What about the week between Christmas and New Year's Day? Historically there has not been many sales. Maybe statistics can be leveraged to find which days to focus on and which to ignore and stay closed. 
+
+The other big holiday question is around Monday or long weekend holidays. Sometimes the Friday before is really busy and then Saturday is really slow. Is it all Monday/long weekend holidays? Again, I think statistics can be leveraged to tease that out. 
+
+# To Bake or Not to Bake
+That is the question. 
+
+At the end of the conversation, I pitched my mom the idea to try and make a machine learning model that could hopefully predict the different cinnamon rolls, breads, cookies, and brownies that ought to be available on a given day. She said that would be something that she is definitely interested in. My idea is to gather this Facebook posting and engagement data, connect that with the daily revenue data and the holiday data to feed it into a neural network and gauge the output results. This is only my initial idea. 
+
+# Conclusion
+I'm a little more that a month into my senior project and the data gathering part has been the most challenging part. I didn't initially realize how difficult that piece would prove to be. Despite the difficulty, however, I'm happy with the progress that I have made so far to try and get data out of Facebook's API. 

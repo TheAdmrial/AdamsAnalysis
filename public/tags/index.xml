@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Adam&#39;s Analysis</title>
+    <link>https://adams-analysis.netlify.app/tags/</link>
+    <description>Recent content in Tags on Adam&#39;s Analysis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://adams-analysis.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning</title>
+      <link>https://adams-analysis.netlify.app/tags/learning/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://adams-analysis.netlify.app/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://adams-analysis.netlify.app/tags/projects/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://adams-analysis.netlify.app/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://adams-analysis.netlify.app/tags/python/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://adams-analysis.netlify.app/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Senior Project</title>
+      <link>https://adams-analysis.netlify.app/tags/senior-project/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://adams-analysis.netlify.app/tags/senior-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

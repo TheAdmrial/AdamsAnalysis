@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adam&#39;s Analysis</title>
+    <link>https://adams-analysis.netlify.app/</link>
+    <description>Recent content on Adam&#39;s Analysis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://adams-analysis.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Senior Project Inspiration</title>
+      <link>https://adams-analysis.netlify.app/2022/05/25/senior-project-inspiration/</link>
+      <pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://adams-analysis.netlify.app/2022/05/25/senior-project-inspiration/</guid>
+      <description>IntroductionMy dad is a wise man. Ever since I switched my degree from accounting to data science in the summer of 2020, he has put the bug in my ear to make some kind of program that can predict how many cinnamon rolls that one of my mom’s bakeries should make. I’ve thought that this is a great idea! However, I have not really known how to execute on this idea until a few months ago.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://adams-analysis.netlify.app/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>https://adams-analysis.netlify.app/about/</guid>
+      <description>My name is Adam! This is a blog dedicated to showcase projects that I&amp;rsquo;ve worked on, ideas, good and bad, that I would like to share, and lessons that I have learned might be helpful to others. Thanks for checking out my blog! I really appreciate it!</description>
+    </item>
+    
+  </channel>
+</rss>
