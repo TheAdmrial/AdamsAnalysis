@@ -1,0 +1,45 @@
+---
+title: What I've Learned Working With Facebook's API
+author: Adam Romriell
+date: '2022-06-08'
+slug: what-i-ve-learned-working-with-facebook-s-api
+categories: ["Senior Project"]
+tags: ["WIL", 'Senior Project','API']
+---
+
+# The Situation
+As part of my analysis for my mom's bakery, one of the questions that my mom has asked is how does social media affect revenue and number of transactions. To answer her question, I have been learning to pull data from Facebook's API. I have learned so much! Here are some of the things that I wish I knew when I first started. 
+
+## Facebook's API Structure
+Facebook's API is set up in a graph structure. There are many nodes and edges that are connected to other nodes. Each node stores information. Some of that information is connected to another node. In way, it reminds me of an actual social network!
+
+
+## API keys (And Keeping Them Hidden)
+
+I will now demystify APIs that as a beginner I did not fully understand until I put some pieces together. When working with data, an API is just a database. That might be a crewed over-simplification of what APIs  actually are, but for me wanting to do data science this analogy works for me. In order to query any database, you need the correct permissions and most APIs are similar in this way. 
+
+An API key is a string of letters and numbers that is connected to your account. In a way, API keys are passwords. Because the API is connected to your account, it is _VITAL_ to safeguard any API keys that you have. I did not realize this at first. Thankfully, at the beginning of this semester, I was shown how to use `.env` files to store API keys outside of git so they are not saved in github for anyone to grab. 
+
+RStudio handles environmental variables in a similar way, but instead with built in functions. One way to do this is with the `usethis` package. You simply call `usethis::edit_r_environ()` and you can edit the file to house your various API keys for a particular Rproject. To call an API key that you have saved in an Rproject, you simply need to call `Sys.getenv(name_of_API_key)` and then save it in a variable. Now you can use whichever API key you have saved!
+
+![](C:/git/AdamsAnalysis/AdamsAnalysis/resources/_gen/images/keep_it_secret.png)
+
+## Testing Code (Making a Number of Calls in a Day, Hour, Whatever)
+
+Something else that I did not realize was that there are limits on the amount of API calls you can make in an hour and in a day. Collecting and distributing data is a lucrative business after all! 
+
+To keep the amount of traffic down, Facebook has limited the amount of API calls that you can make in a day and in an hour. Please, please, please be through as you read through the docs provided for an API. 
+
+I found this out the hard way when I was testing out a for loop. I thought it was going to work without a hitch. After what was maybe 2 hours or so of this for loop doing its thing, I decided to kill it and go to bed. I tried to see how much data I had gotten from the API! 
+
+I was very disappointed to learn that not only did I not have the data that I was looking for, I had hit a cap on the amount of calls I could make in an hour and in a day. And in only a couple of hours no less! 
+
+This vital lesson taught me that not only should I test the components of a for loop slowly before I let it rip, API most likely have call restrictions. I didn't really think to look until I got a couple of emails from Facebook saying that I had exceeded my call limit. Thankfully, I was not deactivated or banned because of this misstep, however, other APIs might not be so lenient. 
+
+## Conclusion
+
+There is a lot more reading than I realized was necessary when doing my own project. There are tons of docs and things to keep in mind when working with APIs that I was previously oblivious to. Thankfully, I didn't blow up a server or get a cease and desist letter. Although, there was probably a data engineer or someone that saw that I was making too many calls and probably got a laugh. 
+
+
+
+

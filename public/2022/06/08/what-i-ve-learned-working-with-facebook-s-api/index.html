@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.99.1" />
+
+
+<title>What I&#39;ve Learned Working With Facebook&#39;s API - Adam&#39;s Analysis</title>
+<meta property="og:title" content="What I&#39;ve Learned Working With Facebook&#39;s API - Adam&#39;s Analysis">
+
+
+  <link href='https://adams-analysis.netlify.app/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/TheAdmrial">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/adam-romriell/">LinkedIn</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">What I&#39;ve Learned Working With Facebook&#39;s API</h1>
+
+    
+    <span class="article-date">2022-06-08</span>
+    
+
+    <div class="article-content">
+      
+
+
+<div id="the-situation" class="section level1">
+<h1>The Situation</h1>
+<p>As part of my analysis for my mom’s bakery, one of the questions that my mom has asked is how does social media affect revenue and number of transactions. To answer her question, I have been learning to pull data from Facebook’s API. I have learned so much! Here are some of the things that I wish I knew when I first started.</p>
+<div id="facebooks-api-structure" class="section level2">
+<h2>Facebook’s API Structure</h2>
+<p>Facebook’s API is set up in a graph structure. There are many nodes and edges that are connected to other nodes. Each node stores information. Some of that information is connected to another node. In way, it reminds me of an actual social network!</p>
+</div>
+<div id="api-keys-and-keeping-them-hidden" class="section level2">
+<h2>API keys (And Keeping Them Hidden)</h2>
+<p>I will now demystify APIs that as a beginner I did not fully understand until I put some pieces together. When working with data, an API is just a database. That might be a crewed over-simplification of what APIs actually are, but for me wanting to do data science this analogy works for me. In order to query any database, you need the correct permissions and most APIs are similar in this way.</p>
+<p>An API key is a string of letters and numbers that is connected to your account. In a way, API keys are passwords. Because the API is connected to your account, it is <em>VITAL</em> to safeguard any API keys that you have. I did not realize this at first. Thankfully, at the beginning of this semester, I was shown how to use <code>.env</code> files to store API keys outside of git so they are not saved in github for anyone to grab.</p>
+<p>RStudio handles environmental variables in a similar way, but instead with built in functions. One way to do this is with the <code>usethis</code> package. You simply call <code>usethis::edit_r_environ()</code> and you can edit the file to house your various API keys for a particular Rproject. To call an API key that you have saved in an Rproject, you simply need to call <code>Sys.getenv(name_of_API_key)</code> and then save it in a variable. Now you can use whichever API key you have saved!</p>
+<p><img src="C:/git/AdamsAnalysis/AdamsAnalysis/resources/_gen/images/keep_it_secret.png" /></p>
+</div>
+<div id="testing-code-making-a-number-of-calls-in-a-day-hour-whatever" class="section level2">
+<h2>Testing Code (Making a Number of Calls in a Day, Hour, Whatever)</h2>
+<p>Something else that I did not realize was that there are limits on the amount of API calls you can make in an hour and in a day.</p>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
