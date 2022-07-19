@@ -22,7 +22,7 @@ An API key is a string of letters and numbers that is connected to your account.
 
 RStudio handles environmental variables in a similar way, but instead with built in functions. One way to do this is with the `usethis` package. You simply call `usethis::edit_r_environ()` and you can edit the file to house your various API keys for a particular Rproject. To call an API key that you have saved in an Rproject, you simply need to call `Sys.getenv(name_of_API_key)` and then save it in a variable. Now you can use whichever API key you have saved!
 
-![](C:/git/AdamsAnalysis/AdamsAnalysis/resources/_gen/images/keep_it_secret.png)
+<!-- ![](C:/git/AdamsAnalysis/AdamsAnalysis/resources/_gen/images/keep_it_secret.png) -->
 
 ## Testing Code (Making a Number of Calls in a Day, Hour, Whatever)
 

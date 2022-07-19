@@ -21,10 +21,7 @@ tags: ["WIL", 'Senior Project','API']
 <p>I will now demystify APIs that as a beginner I did not fully understand until I put some pieces together. When working with data, an API is just a database. That might be a crewed over-simplification of what APIs actually are, but for me wanting to do data science this analogy works for me. In order to query any database, you need the correct permissions and most APIs are similar in this way.</p>
 <p>An API key is a string of letters and numbers that is connected to your account. In a way, API keys are passwords. Because the API is connected to your account, it is <em>VITAL</em> to safeguard any API keys that you have. I did not realize this at first. Thankfully, at the beginning of this semester, I was shown how to use <code>.env</code> files to store API keys outside of git so they are not saved in github for anyone to grab.</p>
 <p>RStudio handles environmental variables in a similar way, but instead with built in functions. One way to do this is with the <code>usethis</code> package. You simply call <code>usethis::edit_r_environ()</code> and you can edit the file to house your various API keys for a particular Rproject. To call an API key that you have saved in an Rproject, you simply need to call <code>Sys.getenv(name_of_API_key)</code> and then save it in a variable. Now you can use whichever API key you have saved!</p>
-<div class="figure">
-<img src="C:/git/AdamsAnalysis/AdamsAnalysis/resources/_gen/images/keep_it_secret.png" alt="" />
-<p class="caption">gandalf</p>
-</div>
+<!-- ![](C:/git/AdamsAnalysis/AdamsAnalysis/resources/_gen/images/keep_it_secret.png) -->
 </div>
 <div id="testing-code-making-a-number-of-calls-in-a-day-hour-whatever" class="section level2">
 <h2>Testing Code (Making a Number of Calls in a Day, Hour, Whatever)</h2>
