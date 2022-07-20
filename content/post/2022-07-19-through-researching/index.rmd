@@ -1,0 +1,32 @@
+---
+title: Through Researching
+author: Adam Romriell
+date: '2022-07-19'
+slug: through-researching
+categories: [WIL, Senior Project]
+tags: [senior project]
+---
+
+# Planning
+When getting started with a new project, researching your question and what other people have done is helpful in the beginning stages. There is a balance that needs to be found, however. Doing enough research that you know roughly what to expect but not so much that you never start. Maybe I struck that balance for a beginner. Often, you find better solutions or better questions to issues that you may have while working. That seems to be my experience most often. 
+
+## Working Hard, Learning New Things
+Before this semester started, I know intellectually what an API(application programming interface) was and roughly how to work with them. I knew that APIs usually sent back JSON (Java Script Object Notation) file but not how to work with them or convert them into a data frame. Looking back, I think the Facebook API is a little complex for beginners to try and tackle. The way the Facebook's graph API is structured made me rethink everything that I knew about how to get data out of an API. Luckily, I was able to piece things together. 
+
+This context is the background to the following story about an easier way to answer the question. 
+
+I was talking with my mom about the project for the bakery and said that trying to get data out of this Facebook API was a lot harder than I thought it was going to be. I knew it would be hard but not this hard. She then asked me what kind of data I was trying to pull out. I told her, among other things, that I need a time stamp of when the post was made, number of views, comments, likes, and page likes. She pointed out that there might be something available on the admin controls of the bakery's Facebook pages. I was skeptical. To get the data I needed, did all I have to do was download a .csv(comma separated value) file? Surely, there would not be as many columns and rows that I was expecting in a mere .csv file! There was just no way in my mind that downloading a file was a viable option. 
+
+Oh, how wrong I was! The .csv file had everything I wanted and more! Columns that I didn't even think were relevant were in the downloaded file. I didn't need to learn to use this complex API. All I needed to do was choose a date range, choose a file type, and click download. I could do that in my sleep. 
+
+To be honest, I felt totally defeated by this simple solution. I really did die just a little bit that day. Seemingly all the work,  reading, and failed attempts were down the drain in my mind. But yet, they really weren't. 
+
+## Lessons Learned
+Maybe this is a painful story, but I learned some lessons about working with APIs that I would not have learned otherwise. I learned that I need to safeguard my keys. I learned that querying APIs is different for every API. I also learned that there is often a simpler solution than the one you came up with. 
+
+In all reality, this is what learning is! Learning is done from personal or other peoples' mistakes. Learning is taking the road less traveled only to find out there was a better route. Learning is burning your hand on the stove or running the same line of code just to make sure the interpreter didn't make a mistake and then looking up the error thrown when you inevitably get the same error the second time. Learning is saying "Ya goalie" in Russian at the top of your lungs to indicate that you want to play the goalie position in soccer but your friend quickly notifies you that goalie means naked in Russian. No mistake or long road taken ought to ever be wasted. 
+
+I suppose a little humility goes a long way when working on complex projects and tasks. While it is still good to plan a roadmap with milestones along the way, just know going in that the map you have made will not be the journey you take. 
+
+
+
