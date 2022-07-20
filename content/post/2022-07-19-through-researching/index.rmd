@@ -1,5 +1,5 @@
 ---
-title: Through Researching
+title: Lessons Learned
 author: Adam Romriell
 date: '2022-07-19'
 slug: through-researching
