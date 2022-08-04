@@ -6,13 +6,22 @@
     <description>Recent content in Senior Project on Adam&#39;s Analysis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://adams-analysis.netlify.app/tags/senior-project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://adams-analysis.netlify.app/tags/senior-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Through Researching</title>
+      <link>https://adams-analysis.netlify.app/2022/07/19/through-researching/</link>
+      <pubDate>Tue, 19 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://adams-analysis.netlify.app/2022/07/19/through-researching/</guid>
+      <description>PlanningWhen getting started with a new project, researching your question and what other people have done is helpful in the beginning stages. There is a balance that needs to be found, however. Doing enough research that you know roughly what to expect but not so much that you never start. Maybe I struck that balance for a beginner. Often, you find better solutions or better questions to issues that you may have while working.</description>
+    </item>
+    
     <item>
       <title>What I&#39;ve Learned Working With Facebook&#39;s API</title>
-      <link>https://adams-analysis.netlify.app/2022/06/08/what-i-ve-learned-working-with-facebook-s-api/</link>
-      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <link>https://adams-analysis.netlify.app/2022/07/18/what-i-ve-learned-working-with-facebook-s-api/</link>
+      <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://adams-analysis.netlify.app/2022/06/08/what-i-ve-learned-working-with-facebook-s-api/</guid>
+      <guid>https://adams-analysis.netlify.app/2022/07/18/what-i-ve-learned-working-with-facebook-s-api/</guid>
       <description>The SituationAs part of my analysis for my mom’s bakery, one of the questions that my mom has asked is how does social media affect revenue and number of transactions. To answer her question, I have been learning to pull data from Facebook’s API. I have learned so much! Here are some of the things that I wish I knew when I first started.
 Facebook’s API StructureFacebook’s API is set up in a graph structure.</description>
     </item>
